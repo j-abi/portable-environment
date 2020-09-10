@@ -3,6 +3,7 @@ FROM python:3.7-slim-buster
 RUN apt update \
 && apt install -y --no-install-recommends \
     curl \
+    git \
     ca-certificates \
     bash-completion \
     libgomp1 \
